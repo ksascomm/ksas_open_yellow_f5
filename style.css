@@ -1,0 +1,109 @@
+/*
+Theme Name: 	Open Academic - Yellow Foundation 5
+Description: 	For academic departments
+Author: 		Cara Peckens
+Author URI: 	http://krieger.jhu.edu/communications/web
+Template: 		ksas_open_academic_f5
+Version: 		0.1
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	color: #383327;
+}
+a, .sidebar_bg ul.nav li a, #sidebar li a, #sidebar a, .blue,
+li.person h4 {
+	color: #997f17;
+}
+
+a:hover, a:visited {
+	color:  #504837;
+}
+#main_nav ul li:hover ul, #main_nav ul li a:hover ul, #main_nav ul li.current_page_ancestor ul, #main_nav ul li.current_page_item ul,
+#main_nav ul li:hover, #main_nav ul li ul li a:hover {
+	background: #504837;
+}
+
+#main_nav > li:hover, #main_nav li.current_page_ancestor, #main_nav li.current_page_parent, #search-bar {
+	background: #383327;
+}
+
+#main_nav ul .flyout {
+	border: 1px solid #383327;
+}
+
+ul.flyout li, .nav-bar li ul li {
+	border-left: 1px solid #383327;
+}
+
+ul.flyout li a, .nav-bar li ul li a {
+	background: #383327;
+	border: 1px solid #504837;
+}
+header.image {
+	background: #504837 url('/wp-content/themes/ksas_open_yellow/assets/images/header.jpg') repeat-x center top;
+}
+
+body.home {
+	background: #e2e1df url('/wp-content/themes/ksas_open_yellow/assets/images/header.jpg') repeat-x center top;
+}
+
+.blueslide, .yellowslide {
+	background: none;
+}
+
+.orbit a.orbit-slide {
+	opacity: 0;
+}
+
+button, .button, .select-buttons li, .SECalendarPrevMonth, .SECalendarNextMonth,
+.widget_title {
+	background: #997f17;
+}
+
+.fc-event-skin { 	
+	background-color: #997f17 !important; 
+	border-color: #997f17 !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+dd.active {
+	border-top: 3px solid #997f17;
+}
+
+p.contact [class^="icon-"]:before, p.contact [class*=" icon-"]:before {
+	color: #333;
+}
+
+.tabs dd.active, .tabs li.active {
+	border-top: 3px solid #997f17;
+}
+
+.tabs {
+	height: auto;
+	background: #ededed;
+}
+
+ul.tabs-content,
+.tabs dd.active a, .tabs li.active a {
+	background: #f7f7f7;
+}
+
+ul.tabs-content.contained > li {
+	border-left: none;
+	padding: 20px 20px 20px 0;
+}
+
+body.site-29, body.site-29 header.image {
+	background: #e2e1df url('/wp-content/themes/ksas_open_yellow/assets/images/arrighi_bg.jpg') repeat-x center top;
+}
+
+#slider {
+background: inherit;
+}
+
+.slide {
+background: transparent;
+}
