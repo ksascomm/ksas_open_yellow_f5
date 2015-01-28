@@ -30,6 +30,7 @@
     <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
     <script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/lte-ie7.js"></script>
   <![endif]-->
+  <?php include_once("parts-analytics.php"); ?>
 </head>
 <body <?php body_class(); ?>>
 	<header class="image">
@@ -81,7 +82,7 @@
 				'menu_class' => 'nav-bar',
 				'container' => 'nav',
 				'container_id' => 'main_nav',
-				'container_class' => 'twelve columns',
+				'container_class' => 'small-12 columns',
 				'fallback_cb' => 'foundation_page_menu',
 				'walker' => new foundation_navigation(),
 				'depth' => 3  )); ?>
