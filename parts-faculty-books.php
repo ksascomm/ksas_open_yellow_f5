@@ -1,4 +1,4 @@
-<div class="content" id="booksTab">
+<div class="content" id="books">
 <?php
 	$author_id = get_the_ID();
 	$single_books_query = new WP_Query(array(
