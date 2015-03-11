@@ -44,7 +44,7 @@ header.image {
 }
 
 body.home {
-	background: #e2e1df url('/wp-content/themes/ksas_open_yellow/assets/images/header.jpg') repeat-x center top;
+	background: #e2e1df url('/wp-content/themes/ksas_open_yellow_f5/assets/images/header.jpg') repeat-x center top;
 }
 
 .blueslide, .yellowslide {
@@ -106,6 +106,20 @@ background: inherit;
 
 .slide {
 background: transparent;
+}
+
+.slider-break {
+  border-bottom: 15px solid;
+  border-color: rgba(0,0,0,0.2);
+  margin-top: -23px;
+  height: 29px;
+  zoom: 1;
+  z-index: 10;
+}
+
+.slideshow-wrapper {
+  position: relative;
+  min-height: 394px;
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 63em) {
