@@ -70,7 +70,7 @@ button, .button, .select-buttons li, .SECalendarPrevMonth, .SECalendarNextMonth,
 }
 
 dd.active {
-	border-top: 3px solid #997f17;
+	border-top: 3px solid #997f17 !important;
 }
 
 p.contact [class^="icon-"]:before, p.contact [class*=" icon-"]:before {
