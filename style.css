@@ -18,6 +18,11 @@ li.person h4 {
 a:hover, a:visited {
 	color:  #504837;
 }
+
+a.white:hover, a.white:visited {
+	color: #fff;
+}
+
 #main_nav ul li:hover ul, #main_nav ul li a:hover ul, #main_nav ul li.current_page_ancestor ul, #main_nav ul li.current_page_item ul,
 #main_nav ul li:hover, #main_nav ul li ul li a:hover {
 	background: #504837;
