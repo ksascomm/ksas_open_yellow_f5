@@ -45,11 +45,11 @@ ul.flyout li a, .nav-bar li ul li a {
 	border: 1px solid #504837;
 }
 header.image {
-	background: #504837 url('/wp-content/themes/ksas_open_yellow/assets/images/header.jpg') repeat-x center top;
+	background: #504837 url('assets/images/header.jpg') repeat-x center top;
 }
 
 body.home {
-	background: #e2e1df url('/wp-content/themes/ksas_open_yellow_f5/assets/images/header.jpg') repeat-x center top;
+	background: #e2e1df url('assets/images/header.jpg') repeat-x center top;
 }
 
 .blueslide, .yellowslide {
