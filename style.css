@@ -102,7 +102,7 @@ ul.tabs-content.contained > li {
 }
 
 body.site-29, body.site-29 header.image {
-	background: #e2e1df url('/wp-content/themes/ksas_open_yellow/assets/images/arrighi_bg.jpg') repeat-x center top;
+	background: #e2e1df url('assets/images/arrighi_bg.jpg') repeat-x center top;
 }
 
 #slider {
@@ -127,7 +127,7 @@ background: transparent;
   min-height: 394px;
 }
 
-@media only screen and (min-width: 40.063em) and (max-width: 63em) {
-#caption {
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+#caption.vertical {
 display: none;
 }
