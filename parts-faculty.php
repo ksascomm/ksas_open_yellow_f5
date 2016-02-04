@@ -22,12 +22,13 @@
 				</div>
 			</div>
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			<div class="large-4 small-12 columns">
+			<div class="large-4 small-12 columns bio">
 				<?php if ( has_post_thumbnail()) { ?> 
 						<?php the_post_thumbnail('full'); ?>
 					<?php } ?>			    
-					<h4><?php the_title() ?></h4>
-			    <h6><?php echo get_post_meta($post->ID, 'ecpt_position', true); ?></h6>
+				<h1><?php the_title() ?></h1>
+			    <h2><?php echo get_post_meta($post->ID, 'ecpt_position', true); ?></h2>
+
 			
 			    <p class="listing">
 			    	<?php if ( get_post_meta($post->ID, 'ecpt_office', true) ) : ?>

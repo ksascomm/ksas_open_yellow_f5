@@ -17,6 +17,19 @@ li.person h4 {
 
 a:hover, a:visited {
 	color:  #504837;
+    border-bottom-color: #997f17;
+}
+
+.wrapper a {
+    border-bottom: .125em dotted;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    color: #997f17;
+}
+
+.wrapper a:hover {
+	color: #2c2c33;
+    border-bottom: #997f17;
+    border-bottom-style: solid;
 }
 
 a.white:hover, a.white:visited {
@@ -126,6 +139,14 @@ background: transparent;
   position: relative;
   min-height: 394px;
 }
+
+#caption.vertical {
+    top: 35px;
+    min-height: 375px;
+    z-index: 2;
+    margin-left: 4px;
+}
+
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 #caption.vertical {

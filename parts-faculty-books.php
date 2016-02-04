@@ -21,7 +21,7 @@
     
     
 	if ( $single_books_query->have_posts() ) : while ($single_books_query->have_posts()) : $single_books_query->the_post(); ?>
-		<div class="book-entry">
+		<div class="small-12 columns book-entry">
 			<a href="<?php the_permalink(); ?>">
 	    		<?php if ( has_post_thumbnail()) {  the_post_thumbnail('directory', array('class'	=> "floatleft"));  } ?>	
 				<h5><?php the_title();?></h5>

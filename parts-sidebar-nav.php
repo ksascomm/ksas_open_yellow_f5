@@ -1,4 +1,4 @@
-	<nav class="large-3 large-pull-9 small-12 columns hide-for-print" role="navigation" id="sidebar"> <!-- Begin Sidebar -->
+	<nav class="large-3 large-pull-9 small-12 columns hide-for-print" role="navigation" id="sidebar" role="complementary"> <!-- Begin Sidebar -->
 		 	<!-- Start Navigation for Sibling Pages -->	
 			<?php 
 				wp_reset_query();
