@@ -41,12 +41,16 @@ a.white:hover, a.white:visited {
 	background: #504837;
 }
 
-#main_nav > li:hover, #main_nav li.current_page_ancestor, #main_nav li.current_page_parent, #search-bar {
+#main_nav > li:hover, #main_nav li.current_page_ancestor, #main_nav li.current_page_parent, #search-bar, .search-bar {
 	background: #383327;
 }
 
 #main_nav ul .flyout {
 	border: 1px solid #383327;
+}
+
+.search-bar a, #search-bar a {
+	color: #fff!important;
 }
 
 ul.flyout li, .nav-bar li ul li {
