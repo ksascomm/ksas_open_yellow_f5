@@ -15,9 +15,13 @@ li.person h4 {
 	color: #997f17;
 }
 
-a:hover, a:visited {
+a:hover, {
 	color:  #504837;
     border-bottom-color: #997f17;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+	background-color:  #504837;
 }
 
 .wrapper a {
@@ -158,7 +162,7 @@ display: none;
 .nav-bar > li.has-flyout.is-touch > a:first-child { padding-right: 25px; }	
 }
 
-/*IE9 Queries*/
+/*IE9 Queries
 @media (min-width: 1023px) {
     #mobile-nav {
     display: none !important;
@@ -168,4 +172,4 @@ display: none;
     #desktop-nav {
     display: none;
   }
-}
+}*/
