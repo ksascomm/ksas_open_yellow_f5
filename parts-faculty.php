@@ -3,23 +3,21 @@
 			<label for="jump">
 				<h5>Jump to Faculty Member</h5>
 			</label>
-			<form name="jump" id="jump">
-				<select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
-					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<option>---<?php the_title(); ?></option> 
-					<?php endwhile; endif; ?>
-					<?php $jump_menu_query = new WP_Query(array(
-						'post-type' => 'people',
-						'role' => 'faculty',
-						'meta_key' => 'ecpt_people_alpha',
-						'orderby' => 'meta_value',
-						'order' => 'ASC',
-						'posts_per_page' => '-1')); ?>
-					<?php while ($jump_menu_query->have_posts()) : $jump_menu_query->the_post(); ?>				
-						<option value="<?php the_permalink() ?>"><?php the_title(); ?></option>
-					<?php endwhile; ?>
-				</select>
-			</form>
+			<select name="jump" id="jump" onchange="window.open(this.options[this.selectedIndex].value,'_top')">
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<option>---<?php the_title(); ?></option> 
+				<?php endwhile; endif; ?>
+				<?php $jump_menu_query = new WP_Query(array(
+					'post-type' => 'people',
+					'role' => 'faculty',
+					'meta_key' => 'ecpt_people_alpha',
+					'orderby' => 'meta_value',
+					'order' => 'ASC',
+					'posts_per_page' => '-1')); ?>
+				<?php while ($jump_menu_query->have_posts()) : $jump_menu_query->the_post(); ?>				
+					<option value="<?php the_permalink() ?>"><?php the_title(); ?></option>
+				<?php endwhile; ?>
+			</select>
 		</div>
 	</div>
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
