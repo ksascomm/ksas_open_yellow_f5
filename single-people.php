@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="row sidebar_bg radius10" id="page">
 	<div class="large-9 large-push-3 columns wrapper radius-left offset-topgutter">	
-		<main class="content" role="main">
+		<main class="content">
 			<?php
 				if (has_term('faculty', 'role') == true ) {
 					locate_template('parts-faculty.php', true, false); } else {
