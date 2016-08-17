@@ -155,6 +155,9 @@ background: transparent;
     margin-left: 4px;
 }
 
+.ai1ec-agenda-widget-view .ai1ec-month, .ai1ec-agenda-view .ai1ec-month {
+	background:#997f17;
+}
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 #caption.vertical {
