@@ -13,7 +13,7 @@
 				        $ancestor_slug = $the_ancestor->post_name;
 				        $ancestor_title = $the_ancestor->post_title;
 			     //If there are no ancestors display a menu of children
-						if (count($ancestors) >= 1) {	?>						
+						if (count($ancestors) >= 0) {	?>						
 						<div class="offset-gutter" id="sidebar_header">
 							<h5 class="grey">Also in <a href="<?php echo $ancestor_url;?>" class="black bold"><?php echo $ancestor_title ?></a></h5>
 						</div>
